@@ -1,9 +1,9 @@
 # CHRISL7_fog
 Easy clone
 ```
-git clone https://github.com/Joxquin/CHRISL7_fog/ $PATH
+git clone https://github.com/Joxquin/CHRISL7_fog/ clone
 ```
 
 ```bash
-bash $PATH/easy_clone
+bash clone/easy_clone
 ```
