@@ -5,5 +5,5 @@ git clone https://github.com/Joxquin/CHRISL7_fog/ $PATH
 ```
 
 ```bash
-bash easy_clone
+bash $PATH/easy_clone
 ```
