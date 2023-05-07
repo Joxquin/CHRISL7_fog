@@ -1,12 +1,19 @@
 # CHRISL7_fog
 ## Easy clone
+Firts U need init repo the ROM u want, example:
 ```
-git clone https://github.com/Joxquin/CHRISL7_fog/ clone
+repo init -u https://github.com/Project-Awaken/android_manifest -b triton --git-lfs
 ```
+Clone the trees on repo 
+```
+git clone https://github.com/Jeremito1/local_manifest.git --depth 1 -b main .repo/local_manifests
+```
+Now sync the source
+```
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+```
+Done!
 
-```bash
-bash clone/easy_clone
-```
 ## Source commit dependencies:
 - vendor/aosp: https://github.com/PixelExperience/vendor_aosp/commit/97c0cd376fc1f160664d29e3a8e5f4559a9a53b0
 - vendor/aosp: https://github.com/PixelExperience/vendor_aosp/commit/6a23cfd3ad4ac795eb4fe0559dc6ac2b5b6ce505
