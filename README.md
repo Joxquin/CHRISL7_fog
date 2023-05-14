@@ -6,7 +6,7 @@ repo init -u https://github.com/Project-Awaken/android_manifest -b triton --git-
 ```
 Clone the trees on repo 
 ```
-git clone https://github.com/Notkerd69/local_manifest.git --depth 1 -b fog-cdrod .repo/local_manifests
+git clone https://github.com/Joxquin/CHRISL7_fog.git --depth 1 -b main .repo/local_manifests
 ```
 Now sync the source
 ```
