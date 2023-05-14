@@ -24,3 +24,7 @@ Done!
 #### Adapt these paths to your rom:
 - https://github.com/PixelExperience-Devices/device_qcom_common-sepolicy/commit/4ae0e346edb8c1525d3d86bc07bcedb312fbf74c
 - https://github.com/PixelExperience-Devices/device_qcom_common/commit/3802e110b09081fc259af9438096801e8c39cd4b
+
+Thanks to:
+[Notkerd](https://github.com/Notkerd)
+[CHRISL7](https://github.com/CHRISL7)
