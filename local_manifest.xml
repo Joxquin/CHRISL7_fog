@@ -5,7 +5,7 @@
                 <project path="device/xiaomi/fog" name="Notkerd69/device_xiaomi_fog-1" remote="github" revision="rizen" />
 		<project path="device/xiaomi/fog-kernel" name="dblenk-project/device_xiaomi_fog-kernel" remote="github" revision="13" />
 		<project path="device/xiaomi/sm6225-common" name="Notkerd69/device_xiaomi_sm6225-common" remote="github" revision="thirteen-plus" />
-		<project path="kernel/xiaomi/sm6225" name="Vhmit/kernel_xiaomi_fog" remote="github" revision="master" />
+		<project path="kernel/xiaomi/sm6225" name="dblenk-project/device_xiaomi_fog-kernel" remote="github" revision="13" />
                 <project path="vendor/xiaomi/fog" name="Notkerd69/proprietary_vendor_xiaomi_fog" remote="github" revision="thirteen" />
 		
 		<!-- Vendor Blobs -->
