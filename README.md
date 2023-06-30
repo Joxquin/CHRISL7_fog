@@ -26,8 +26,9 @@ Done!
 - https://github.com/PixelExperience-Devices/device_qcom_common/commit/3802e110b09081fc259af9438096801e8c39cd4b
 
 ## For some ROMs:
-- git clone https://github.com/PixelExperience/hardware_xiaomi hardware/xiaomi
-
+```
+git clone https://github.com/PixelExperience/hardware_xiaomi hardware/xiaomi
+```
 
 
 Thanks to:
