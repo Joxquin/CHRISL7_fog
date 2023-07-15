@@ -2,7 +2,7 @@
 <manifest>
 
                 <!-- Device trees -->
-                <project path="device/xiaomi/fog" name="CHRISL7/android_device_xiaomi_fog" remote="github" revision="aosp" />
+                <project path="device/xiaomi/fog" name="CHRISL7/android_device_xiaomi_fog" remote="github" revision="thirteen" />
 		<project path="device/xiaomi/fog-kernel" name="CHRISL7/device_xiaomi_fog-kernel" remote="github" revision="topaz" />
 		<project path="device/xiaomi/sm6225-common" name="PixelExperience-Devices/device_xiaomi_sm6225-common" remote="github" revision="thirteen" />
 		<project path="kernel/xiaomi/sm6225" name="PixelExperience-Devices/kernel_xiaomi_sm6225" remote="github" revision="thirteen" />
