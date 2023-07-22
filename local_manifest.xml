@@ -7,12 +7,14 @@
 		<project path="device/xiaomi/sm6225-common" name="Joxquin/device_xiaomi_sm6225-common" remote="github" revision="thirteen" />
 		<project path="kernel/xiaomi/sm6225" name="PixelExperience-Devices/kernel_xiaomi_sm6225" remote="github" revision="thirteen" />
                 <project path="vendor/xiaomi/fog" name="CHRISL7/proprietary_vendor_xiaomi_fog" remote="github" revision="thirteen" />
-		
+		<project path="device/xiaomi/sm6225-common-miuicamera" name="PixelExperience-Devices/device_xiaomi_sm6225-common-miuicamera" remote="github" revision="thirteen"
+			
 		<!-- Vendor Blobs -->
 		<remote name="Pixel" fetch="https://gitlab.pixelexperience.org" />
 		<project path="vendor/qcom/common" name="android/vendor-blobs/vendor_qcom_common" remote="Pixel" revision="thirteen" />
 		<project path="vendor/xiaomi/sm6225-common" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" remote="Pixel" revision="thirteen" />
-		
+		<project path="vendor/xiaomi/sm6225-common-miuicamera" name="android/vendor-blobs/vendor_xiaomi_sm6225-common-miuicamera" remote="Pixel" revision="thirteen"
+
 		<!-- QCOM COMMON Dependencies -->
 		<project path="device/qcom/common" name="PixelExperience-Devices/device_qcom_common" remote="github" revision="thirteen" />
 		<project path="device/qcom/common-sepolicy" name="PixelExperience-Devices/device_qcom_common-sepolicy" remote="github" revision="thirteen" />
