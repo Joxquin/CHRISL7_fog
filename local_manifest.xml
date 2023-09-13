@@ -1,35 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-                <!-- Device trees -->
-                <project path="device/xiaomi/fog" name="Notkerd69/device_xiaomi_fog-1" remote="github" revision="rizen" />
-		<project path="device/xiaomi/fog-kernel" name="dblenk-project/device_xiaomi_fog-kernel" remote="github" revision="13" />
-		<project path="device/xiaomi/sm6225-common" name="Notkerd69/device_xiaomi_sm6225-common" remote="github" revision="thirteen-plus" />
-		<project path="kernel/xiaomi/sm6225" name="dblenk-project/kernel_xiaomi_fog_header" remote="github" revision="lineage-20" />
-                <project path="vendor/xiaomi/fog" name="Notkerd69/proprietary_vendor_xiaomi_fog" remote="github" revision="thirteen" />
-		
-		<!-- Vendor Blobs -->
-		<remote name="Pixel" fetch="https://gitlab.pixelexperience.org" />
-		<project path="vendor/qcom/common" name="android/vendor-blobs/vendor_qcom_common" remote="Pixel" revision="thirteen" />
-		<project path="vendor/xiaomi/sm6225-common" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" remote="Pixel" revision="thirteen" />
-		
+		<!-- Device trees -->
+        	<project path="device/xiaomi/fog" name="Notkerd69/device_xiaomi_fog" remote="github" revision="thirteen" />
+		<project path="device/xiaomi/fog-kernel" name="Notkerd69/device_xiaomi_fog-kernel" remote="github" revision="13" />
+		<project path="kernel/xiaomi/fog" name="dblenk-project/kernel_xiaomi_fog_header" remote="github" revision="lineage-20" />
+        	<project path="vendor/xiaomi/fog" name="Notkerd69/vendor_xiaomi_fog" remote="github" revision="thirteen" />
+
 		<!-- QCOM COMMON Dependencies -->
+		<remote name="Pixel" fetch="https://gitlab.pixelexperience.org" />
 		<project path="device/qcom/common" name="PixelExperience-Devices/device_qcom_common" remote="github" revision="thirteen" />
 		<project path="device/qcom/common-sepolicy" name="PixelExperience-Devices/device_qcom_common-sepolicy" remote="github" revision="thirteen" />
 		<project path="device/qcom/qssi" name="PixelExperience-Devices/device_qcom_qssi" remote="github" revision="thirteen" />
 		<project path="device/qcom/vendor-common" name="PixelExperience-Devices/device_qcom_vendor-common" remote="github" revision="thirteen" />
 		<project path="device/qcom/wlan" name="PixelExperience-Devices/device_qcom_wlan" remote="github" revision="thirteen" />
-	        <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" remote="github" revision="thirteen" />
-	        <project path="vendor/qcom/opensource/core-utils" name="PixelExperience/vendor_qcom_opensource_core-utils" remote="github" revision="thirteen" />
-	        <project path="vendor/qcom/opensource/commonsys/dpm" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" remote="github" revision="thirteen" />
-        
+		<project path="vendor/qcom/common" name="android/vendor-blobs/vendor_qcom_common" remote="Pixel" revision="thirteen" />
+	    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" remote="github" revision="thirteen" />
+	    <project path="vendor/qcom/opensource/core-utils" name="PixelExperience/vendor_qcom_opensource_core-utils" remote="github" revision="thirteen" />
+	    <project path="vendor/qcom/opensource/commonsys/dpm" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" remote="github" revision="thirteen" />
+
 		<!-- Bengal HALs -->
 		<project path="hardware/qcom-caf/bengal/audio" name="PixelExperience/hardware_qcom-caf_bengal_audio" remote="github" revision="thirteen" />
 		<project path="hardware/qcom-caf/bengal/display" name="PixelExperience/hardware_qcom-caf_bengal_display" remote="github" revision="thirteen" />
 		<project path="hardware/qcom-caf/bengal/gps" name="PixelExperience/hardware_qcom-caf_bengal_gps" remote="github" revision="thirteen" />
 		<project path="hardware/qcom-caf/bengal/media" name="PixelExperience/hardware_qcom-caf_bengal_media" remote="github" revision="thirteen" />
 
-               <!-- Pro clag -->
-               <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
-        
 </manifest>
