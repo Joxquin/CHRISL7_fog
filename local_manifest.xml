@@ -25,4 +25,8 @@
 		<project path="hardware/qcom-caf/bengal/gps" name="PixelExperience/hardware_qcom-caf_bengal_gps" remote="github" revision="thirteen" />
 		<project path="hardware/qcom-caf/bengal/media" name="PixelExperience/hardware_qcom-caf_bengal_media" remote="github" revision="thirteen" />
 
+		<!-- MIUI Camera -->
+		<project path="vendor/xiaomi/sm6225-common-miuicamera" name="android/vendor-blobs/vendor_xiaomi_sm6225-common-miuicamera" remote="Pixel" revision="thirteen" />
+		<project path="device/xiaomi/sm6225-common-miuicamera" name="PixelExperience-Devices/device_xiaomi_sm6225-common-miuicamera" remote="github" revision="thirteen" />
+	
 </manifest>
