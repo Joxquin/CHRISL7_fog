@@ -24,6 +24,7 @@
 	        <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" remote="github" revision="thirteen" />
 	        <project path="vendor/qcom/opensource/core-utils" name="PixelExperience/vendor_qcom_opensource_core-utils" remote="github" revision="thirteen" />
 	        <project path="vendor/qcom/opensource/commonsys/dpm" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" remote="github" revision="thirteen" />
+		<project path="vendor/qcom/opensource/usb" name="PixelExperience/vendor_qcom_opensource_usb" remote="github" revision="thirteen" />
         
 		<!-- Bengal HALs -->
 		<project path="hardware/qcom-caf/bengal/audio" name="PixelExperience/hardware_qcom-caf_bengal_audio" remote="github" revision="thirteen" />
